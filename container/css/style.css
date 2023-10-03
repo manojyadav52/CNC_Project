@@ -1,0 +1,67 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;   
+}
+header{
+    background-color: rgb(39, 39, 116);
+    margin: 0px 20px 20px 10px;
+    padding: 5px 4px 8px 2px;
+    display: flex;
+    color: white;
+    height: 100%;
+    justify-content: space-between;
+}
+.banar{
+    background: url(../imges/Indd.jpg);
+    background-size: cover          ;
+    width: 100%;
+    height: 300px;
+    
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    margin: 2px 3px 3px 4px;
+    padding: 20px 30px 40px 20px;
+
+    display: flex;
+    
+}
+section aside{
+    border: 6px solid rgb(77, 77, 138);
+    border-radius: 18px;
+    height: 300px;
+    width: 40%;
+    padding: 10px 45px;
+    background-color: rgb(44, 85, 197);
+    margin: 20px 30px;
+    size: 30px;
+    
+}
+.banar main{
+    color: white;
+    padding: 20px 40px;
+}
+.banar aside{
+    padding: 20px 30px;
+    margin: 0px 15px 30px;
+}
+.banar aside input {
+    text-justify:distribute-all-lines;
+    text-align: center;
+}
+.container{
+ 
+    display: flex;
+   
+}
+.container.box{
+    box-sizing: border-box;
+    border-radius: 2px solid green;
+    width: 30%;
+    border-radius: 6px solid grey;
+    padding: 10px 20px 30px 40px;
+    margin: 20px 20px 10px 30px;
+    background-color: rgb(184, 134, 59);
+  
+}
